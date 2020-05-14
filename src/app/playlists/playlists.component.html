@@ -10,8 +10,8 @@
         </div>
     </div>
     <div class="row mt-2">
-        <a *ngFor="let link of toArray(playlist.links)" class="btn btn-primary col-3 mx-3" target="_blank"
-            href='{{ link.url }}' role="button">
+        <a *ngFor="let link of toArray(playlist.links)" class="btn btn-primary col-3 mx-3  border-0" target="_blank"
+            href='{{ link.url }}' role="button" [ngStyle]="{'background-color': link.platform === 'Spotify' ? '#1DB954' : 'black'}">
             {{ link.platform }}
         </a>
     </div>
