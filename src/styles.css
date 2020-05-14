@@ -1,0 +1,28 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.active-link h3 {
+    color: black;
+    font-style: italic;
+    font-weight: 900;
+    border: chartreuse;
+    border-style: solid;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gainsboro;
+    color: grey;
+    text-align: center;
+  }
+
+  .smallerFont{
+      font-size: x-small;
+      font-style: italic;
+  }
+
+  .kindaLilFont{
+      font-size: small;
+  }

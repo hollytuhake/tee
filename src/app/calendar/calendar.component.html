@@ -1,0 +1,9 @@
+<p>IN-PERSON GATHERING POSTPONED UNTIL LIFE IS BACK TO NORMAL, see below for history.</p>
+<div class="mb-4" *ngFor="let date of dates | reverse">
+    <div *ngIf="!date.cancelled">
+        <p class="my-1">{{ date.DATE }}</p>
+        <b class="my-1">{{ date.performanceTitle }}</b>
+        <span class="my-1 ml-3 smallerFont"> {{ date.genre }}</span>
+        <p class="my-1 kindaLilFont"><b>featuring:</b> {{ date.performers }}</p>
+    </div>
+</div>
